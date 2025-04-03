@@ -1,0 +1,135 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-news {
+    max-width: 93%;
+    margin: 10px auto;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header-news {
+    position: relative;
+}
+
+.image-news {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.author-news{
+    padding: 10px 20px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.name-author {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    font-size: 14px;
+}
+
+.publish-date {
+    font-size: 12px;
+    color: #777;
+    margin: 0;
+}
+
+.title-news {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.title-news h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.content-news {
+    padding: 20px;
+    color: #555;
+}
+
+.content-news p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    display: inline-block;
+    transition: color 0.3s, font-weight 0.3s;
+}
+
+.menu a:hover {
+    color: #3E7D60;
+    font-weight: bold;
+}
+
+.menu a.active-menu {
+    color: #3E7D60;
+    font-weight: bold;
+}
+
+
+/* Styling for the "back to top" button */
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    background-color: #3E7D60; /* Blue background */
+    color: #fff; /* White icon color */
+    border: none;
+    border-radius: 50%; /* Circular button */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Keep it above other elements */
+    transition: background-color 0.3s ease;
+}
+
+#top:hover {
+    background-color: #1d704a; /* Darker blue on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 15px; /* Reduce padding */
+        font-size: 0.9em; /* Slightly smaller text */
+    }
+
+    .main-content h3 {
+        font-size: 1.5em; /* Smaller heading size */
+    }
+
+    #top {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
