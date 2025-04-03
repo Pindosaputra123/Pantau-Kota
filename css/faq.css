@@ -1,0 +1,99 @@
+/* General styling for the main content */
+.main-content {
+    padding: 20px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Poppins', sans-serif; /* Clean, modern font */
+    color: #333; /* Text color */
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 20px auto; /* Center the content on the page */
+}
+
+/* Styling for headings */
+.main-content h3 {
+    font-size: 1.8em; /* Slightly larger heading size */
+    color: #3E7D60; /* Blue color for emphasis */
+    margin-bottom: 10px;
+    text-align: center; /* Center the heading */
+    font-weight: bold;
+
+}
+
+/* Horizontal line styling */
+.main-content hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd; /* Subtle line color */
+    margin: 20px 0;
+}
+
+/* Styling for paragraphs */
+.main-content p {
+    text-align: justify; /* Justified text for a clean layout */
+    line-height: 1.6; /* Increase line spacing for better readability */
+    font-size: 1em; /* Standard font size */
+}
+
+/* Styling for the "back to top" button */
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    background-color: #3E7D60; /* Blue background */
+    color: #fff; /* White icon color */
+    border: none;
+    border-radius: 50%; /* Circular button */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 1000; /* Keep it above other elements */
+    transition: background-color 0.3s ease;
+}
+
+#top:hover {
+    background-color: #1d704a; /* Darker blue on hover */
+}
+
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    display: inline-block;
+    transition: color 0.3s, font-weight 0.3s;
+}
+
+.menu a:hover {
+    color: #3E7D60;
+    font-weight: bold;
+}
+
+.menu a.active-menu {
+    color: #3E7D60;
+    font-weight: bold;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 15px; /* Reduce padding */
+        font-size: 0.9em; /* Slightly smaller text */
+    }
+
+    .main-content h3 {
+        font-size: 1.5em; /* Smaller heading size */
+    }
+
+    #top {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
