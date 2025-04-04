@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f4f4f4; */
+    background: url('../images/backbms.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    width: 80%;
+    height: 65vh;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.right-section {
+    flex: 1;
+    background: url('../images/bms.jpg') center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-input {
+    margin-bottom: 15px;
+}
+
+.box-input input, 
+.btn-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.box-input input {
+    border: 1px solid #ccc;
+}
+
+.btn-input {
+    background-color: #3E7D60;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-input:hover {
+    background-color: #1e6d48;
+}
+
+.bottom p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bottom a {
+    color: #00aeff;
+    text-decoration: none;
+}
+
+.left-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #3E7D60;
+}
+
+.right-section .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.right-section .text-content {
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.left-section .text-content h1 {
+    font-size: 36px;
+}
+
+.left-section .text-content p {
+    font-size: 14px;
+}
+
+
+.box-input select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #3E7D60;
+}
+
+.box-input select:focus {
+    outline: none;
+    border-color: #3E7D60; /* Warna fokus */
+    box-shadow: 0 0 5px rgba(62, 125, 96, 0.5);
+}
