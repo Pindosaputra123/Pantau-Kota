@@ -1,0 +1,156 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Styling */
+.main-content {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+h3 {
+    text-align: center;
+    color: #3E7D60;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Form Styling */
+.form-horizontal {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group-addon {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    color: #495057;
+}
+
+.input-group .form-control {
+    border-left: 0;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.btn-primary-custom {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* Back to Top Button */
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 999;
+    font-size: 24px;
+    color: #3E7D60;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#top:hover {
+    background-color: #2b6c4e;
+    color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .btn-social {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+footer .btn-social:hover {
+    background-color: #3E7D60;
+    border-color: #3E7D60;
+}
+
+.copyright {
+    background-color: #23272b;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    display: inline-block;
+    transition: color 0.3s, font-weight 0.3s;
+}
+
+.menu a:hover {
+    color: #3E7D60;
+    font-weight: bold;
+}
+
+.menu a.active-menu {
+    color: #3E7D60;
+    font-weight: bold;
+}
