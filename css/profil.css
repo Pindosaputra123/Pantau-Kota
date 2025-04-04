@@ -1,0 +1,158 @@
+:root {
+    --primary-color: #3E7D60;
+    --secondary-color: #DC052D;
+    --background-color: #f5f5f5;
+    --font-color: #333;
+    --white: #fff;
+    --danger-color: #999;
+    --danger-hover-color: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--font-color);
+    line-height: 1.6;
+    background: url('/Assets/images/studbay.jpg') no-repeat center center fixed; /* Menambahkan background image */
+    background-size: cover; /* Gambar menutupi seluruh layar */
+}
+
+.dashboard-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: rgba(255, 255, 255); /* Memberikan transparansi pada form */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.dashboard-header {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.dashboard-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-header h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.profile-section {
+    padding: 2rem;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.profile-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.profile-form label {
+    font-weight: 600;
+}
+
+.profile-form input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+    width: 100%; /* Input field full width */
+}
+
+.profile-form input:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+}
+
+.btn-save-profile {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.btn-save-profile:hover {
+    background-color: #004d99;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--background-color);
+}
+
+.btn-logout,
+.btn-delete-account {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-logout {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.btn-logout:hover {
+    background-color: #b00324;
+}
+
+.btn-delete-account {
+    background-color: var(--danger-color);
+    color: var(--white);
+}
+
+.btn-delete-account:hover {
+    background-color: var(--danger-hover-color);
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        margin: 1rem;
+    }
+
+    .profile-section {
+        padding: 1.5rem;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .btn-logout,
+    .btn-delete-account {
+        width: 100%; /* Full width buttons on smaller screens */
+    }
+}
