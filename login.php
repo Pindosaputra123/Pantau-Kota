@@ -54,50 +54,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Login Page</title>
 </head>
 <body>
-<div class="container">
-    <div class="right-section">
-    <div class="overlay"></div>
-        <div class="text-content">
-            <h1>Saur Warga</h1>
-            <p>Membangun Karawang yang lebih melalui aspirasi dan evaluasi</p>
+    <div class="container">
+        <div class="right-section">
+        <div class="overlay"></div>
+            <div class="text-content">
+                <h1>Saur Warga</h1>
+                <p>Membangun Karawang yang lebih melalui aspirasi dan evaluasi</p>
+            </div>
+        </div>
+
+        
+        <div class="left-section">
+            <h1>LOGIN</h1>
+            <form action="" method="POST">
+                <div class="box-input">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="box-input">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="box-input">
+                    <select name="role" required>
+                        <option value="" disabled selected>Pilih Role</option>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-input">Login</button>
+                <div class="bottom">
+                    <p>Belum punya akun?
+                        <a href="signin.php">Daftar disini</a>
+                    </p>
+                </div>
+            </form>
+            <?php if (!empty($message)): ?>
+                <p class="error"><?php echo htmlspecialchars($message); ?></p>
+            <?php endif; ?>
         </div>
     </div>
-
-
-
-    <div class="left-section">
- 
-
-
-
-
-
-        <h1>LOGIN</h1>
-        <form action="" method="POST">
-            <div class="box-input">
-                <input type="email" name="email" placeholder="Email" required>
-            </div>
-            <div class="box-input">
-                <input type="password" name="password" placeholder="Password" required>
-            </div>
-            <div class="box-input">
-                <select name="role" required>
-                    <option value="" disabled selected>Pilih Role</option>
-                    <option value="admin">Admin</option>
-                    <option value="user">User</option>
-                </select>
-            </div>
-            <button type="submit" class="btn-input">Login</button>
-            <div class="bottom">
-                <p>Belum punya akun?
-                    <a href="signin.php">Daftar disini</a>
-                </p>
-            </div>
-        </form>
-        <?php if (!empty($message)): ?>
-            <p class="error"><?php echo htmlspecialchars($message); ?></p>
-        <?php endif; ?>
-    </div>
-</div>
 </body>
 </html>
