@@ -212,8 +212,8 @@ function isActive($page) {
                     memantau status dan perkembangan pengaduannya, serta menerima notifikasi atau umpan balik
                     terkait tindak lanjut yang diambil pemerintah.
                 </p>
-                <p class="nkri">Persatuan bukan tentang menyamakan segalanya, tapi memastikan semua mendapat tempat yang sama mulianya.</p>
-                <p>R.A. Kartini</p>
+                <p class="nkri">Suara rakyat bukan sekadar keluhan — itu adalah alarm bagi pemerintah untuk segera bertindak.</p>
+                <p>Najwa Shihab</p>
             </div>
         </section>
         
