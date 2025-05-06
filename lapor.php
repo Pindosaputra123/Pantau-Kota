@@ -71,10 +71,10 @@ function isActive($page) {
             </div>
         <?php else: ?>
             <div class="logsig">
-                <a href="/SAMBATRAKYAT/login.php">
+                <a href="/Pengaduan-Masyarakat/login.php">
                     <button class="login-btn">Masuk</button>
                 </a>
-                <a href="/SAMBATRAKYAT/signin.php">
+                <a href="/Pengaduan-Masyarakat/signin.php">
                     <button class="signup-btn">Daftar</button>
                 </a>
             </div>
