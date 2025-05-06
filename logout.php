@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-// Simpan halaman saat logout
-$logout_redirect_url = isset($_SESSION['redirect_url']) ? $_SESSION['redirect_url'] : '/Pengaduan-Masyarakat/index.php';
+// Redirect ke halaman 'Pengaduan-Masyarakat/index.php' setelah logout
+$logout_redirect_url = '/Pengaduan-Masyarakat/index.php';
 
 // Hapus semua sesi
 session_unset();
