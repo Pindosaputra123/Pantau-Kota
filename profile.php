@@ -93,11 +93,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
         <div class="menu">
-            <a href="index" target="_top">UTAMA</a>
-            <a href="lapor" target="_top">LAPOR</a>
-            <a href="lihat" target="_top">LIHAT LAPORAN</a>
-            <a href="cara" target="_top">PROFIL DINAS</a>
-            <a href="faq" target="_top">TENTANG</a>
+            <a href="index.php" target="_top">UTAMA</a>
+            <a href="lapor.php" target="_top">LAPOR</a>
+            <a href="lihat.php" target="_top">LIHAT LAPORAN</a>
+            <a href="cara.php" target="_top">PROFIL DINAS</a>
+            <a href="faq.php" target="_top">TENTANG</a>
         </div>
 
         <?php if (isset($username)): ?>
