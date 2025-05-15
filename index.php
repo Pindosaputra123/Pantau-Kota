@@ -91,10 +91,10 @@ $mysqli->close();
                 <div class="modal-body">
                     <p class="text-center">Pengaduan Berhasil Di Kirim</p>
                     <p class="text-center">Untuk Mengetahui Status Pengaduan</p>
-                    <p class="text-center">Silahkan Buka Menu <a href="lihat">Lihat Pengaduan</a> </p>
+                    <p class="text-center">Silahkan Buka Menu <a href="lihat.php">Lihat Pengaduan</a> </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn button-green" onclick="location.href='index';" data-dismiss="modal">Tutup</button>
+                    <button type="button" class="btn button-green" onclick="location.href='index.php';" data-dismiss="modal">Tutup</button>
                 </div>
             </div>
         </div>
