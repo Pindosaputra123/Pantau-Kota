@@ -76,7 +76,7 @@ logged_admin ();
 <body class="fixed-nav sticky-footer" id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <a class="navbar-brand" href="index">Saur Warga Karawang</a>
+        <a class="navbar-brand" href="index.php">Saur Warga Karawang</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -98,21 +98,21 @@ logged_admin ();
                 </li>
 
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                    <a class="nav-link" href="index">
+                    <a class="nav-link" href="index.php">
                         <i class="fa fa-fw fa-dashboard"></i>
                         <span class="nav-link-text">Dashboard</span>
                     </a>
                 </li>
 
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-                    <a class="nav-link" href="tables">
+                    <a class="nav-link" href="tables.php">
                         <i class="fa fa-fw fa-table"></i>
                         <span class="nav-link-text">Kelola</span>
                     </a>
                 </li>
 
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Export">
-                    <a class="nav-link" href="export">
+                    <a class="nav-link" href="export.php">
                         <i class="fa fa-fw fa-print"></i>
                         <span class="nav-link-text">Ekspor</span>
                     </a>
@@ -280,7 +280,7 @@ logged_admin ();
                     <div class="modal-body">Pilih "Logout" jika anda ingin mengakhiri sesi.</div>
                     <div class="modal-footer">
                         <button class="btn btn-close card-shadow-2 btn-sm" type="button" data-dismiss="modal">Batal</button>
-                        <a class="btn btn-primary btn-sm card-shadow-2" href="logout">Logout</a>
+                        <a class="btn btn-primary btn-sm card-shadow-2" href="logout.php">Logout</a>
                     </div>
                 </div>
             </div>
