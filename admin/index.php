@@ -1,4 +1,3 @@
-
 <?php
     require_once("database.php"); // koneksi DB
     require_once 'auth.php';
@@ -56,7 +55,7 @@
 <body class="fixed-nav sticky-footer" id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <a class="navbar-brand" href="index">Saur Warga Karawang</a>
+        <a class="navbar-brand" href="index.php">Saur Warga Karawang</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -78,21 +77,21 @@
                 </li>
 
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                    <a class="nav-link" href="index">
+                    <a class="nav-link" href="index.php">
                         <i class="fa fa-fw fa-dashboard"></i>
                         <span class="nav-link-text">Dashboard</span>
                     </a>
                 </li>
 
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-                    <a class="nav-link" href="tables">
+                    <a class="nav-link" href="tables.php">
                         <i class="fa fa-fw fa-table"></i>
                         <span class="nav-link-text">Kelola</span>
                     </a>
                 </li>
 
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Export">
-                    <a class="nav-link" href="export">
+                    <a class="nav-link" href="export.php">
                         <i class="fa fa-fw fa-print"></i>
                         <span class="nav-link-text">Ekspor</span>
                     </a>
@@ -179,7 +178,7 @@
                             </div>
                             <div class="mr-5"><?php echo $total_laporan_masuk; ?> Laporan Masuk</div>
                         </div>
-                        <a class="card-footer text-white clearfix small z-1" href="tables">
+                        <a class="card-footer text-white clearfix small z-1" href="tables.php">
                             <span class="float-left">Total Laporan Masuk</span>
                             <span class="float-right">
                                 <i class="fa fa-angle-right"></i>
@@ -332,7 +331,7 @@
                     <div class="modal-body">Pilih "Logout" jika anda ingin mengakhiri sesi.</div>
                     <div class="modal-footer">
                         <button class="btn btn-close card-shadow-2 btn-sm" type="button" data-dismiss="modal">Batal</button>
-                        <a class="btn btn-primary btn-sm card-shadow-2" href="logout">Logout</a>
+                        <a class="btn btn-primary btn-sm card-shadow-2" href="logout.php">Logout</a>
                     </div>
                 </div>
             </div>
@@ -351,7 +350,7 @@
                     </div>
                     <div class="modal-body">
                         <h5 style="text-align : center;">V-1.0</h5>
-                        <p style="text-align : center;">Copyright © Pemerintahan Kabupaten Banyumas</p>
+                        <p style="text-align : center;">Copyright © Pemerintahan Kabupaten Karawang</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-close card-shadow-2 btn-sm" data-dismiss="modal">Tutup</button>
